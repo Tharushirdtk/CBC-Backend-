@@ -12,7 +12,7 @@ dotenv.config()
 
 const app = express();
 
-const mongoUrl = process.env.MONGO_DB_URI
+const mongoUrl = process.env.MONGO_DB_URI 
 
 app.use(cors())
 
